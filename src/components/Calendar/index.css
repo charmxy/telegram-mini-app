@@ -1,0 +1,93 @@
+.calendar-warp {
+  .date-text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    height: 17px;
+    line-height: 17px;
+    color: #ffbf6a;
+  }
+
+  .calendar-body {
+    display: flex;
+    flex-wrap: wrap;
+    .day-warp {
+      display: grid;
+      grid-gap: 10px 5px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+  }
+
+  .day-text {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #ddc6ab;
+  }
+
+  .date-box {
+    width: 40px;
+    height: 40px;
+    padding: 2px 11px 2px 11px;
+    border-radius: 8px;
+    gap: 10px;
+    background: #f8f2e2;
+    .date-text {
+      font-family: Inter;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 15px;
+      height: 15px;
+      text-align: center;
+      color: #cba87f;
+      margin-bottom: 2px;
+    }
+    .date-point {
+      margin-left: 2px;
+      font-family: Inter;
+      font-size: 10px;
+      font-weight: 600;
+      height: 12px;
+      line-height: 12px;
+      text-align: center;
+      color: #cba87f;
+    }
+  }
+  .signed-in {
+    background: linear-gradient(143.7deg, #ff9d56 21.17%, #ffc59b 81.24%);
+    box-shadow: 0px 2px 0px 0px #ede3c9;
+    .date-text {
+      color: #ffffff;
+    }
+    .date-point {
+      color: #ffffff;
+    }
+  }
+  .wating-sign-in {
+    background: transparent;
+    border: 2px solid #ffbf6a;
+    box-shadow: 0px 2px 0px 0px #ede3c9;
+  }
+
+  .empty,
+  .day {
+    width: calc(100% / 7);
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .day:hover {
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  .day:hover,
+  .selected {
+    background-color: #22a4f1;
+    cursor: pointer;
+  }
+  .m-10 {
+    margin: 10px 0;
+  }
+}

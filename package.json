@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://telegram-mini-apps.github.io/reactjs-template",
+  "homepage": "https://charmxy.github.io/telegram-mini-app",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "dev": "vite",
@@ -14,6 +14,10 @@
     "predeploy": "npm run build"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/lab": "^6.0.0-beta.9",
+    "@mui/material": "^6.0.2",
     "@telegram-apps/react-router-integration": "^1.0.0",
     "@telegram-apps/sdk-react": "^1.0.0",
     "@telegram-apps/telegram-ui": "^2.1.5",
@@ -26,6 +30,7 @@
   "devDependencies": {
     "@eslint/js": "^9.2.0",
     "@types/node": "^20.12.11",
+    "@types/node-fetch": "^2.6.11",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@typescript-eslint/eslint-plugin": "^7.8.0",
@@ -36,6 +41,7 @@
     "eslint-plugin-react": "^7.34.1",
     "gh-pages": "^6.1.1",
     "globals": "^15.2.0",
+    "tailwindcss": "^3.4.10",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.8.0",
     "vite": "^5.2.11",

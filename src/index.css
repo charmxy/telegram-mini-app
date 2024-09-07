@@ -1,5 +1,49 @@
-body {
-  background: var(--tg-theme-secondary-bg-color, white);
-  padding: 0;
-  margin: 0;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Cherry Bomb One";
+  src: url("/fonts/CherryBombOne-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-VariableFont_opsz,wght.ttf") format("woff2");
+}
+
+* {
+  font-family: "Inter", monospace;
+  color: #fff;
+}
+
+a {
+  cursor: pointer;
+}
+
+.text-active {
+  background: linear-gradient(282.6deg, #6a21f7 -10.2%, #fab2ff 119.07%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu-warp {
+  .menu-text {
+    font-family: Cherry Bomb One !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 23px !important;
+    text-align: center !important;
+    color: #fffbf0 !important;
+  }
+  .earn {
+    height: 155px;
+    bottom: 25px;
+  }
+  .Mui-selected .menu-text {
+    color: #f6951f !important;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+      1px 1px 0 #fff, 0px -1px 0 #fff, 0px 1px 0 #fff, -1px 0px 0 #fff,
+      1px 0px 0 #fff;
+  }
 }

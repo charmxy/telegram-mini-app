@@ -1,0 +1,430 @@
+.points-warp {
+  width: 178px;
+  height: 46px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 0px 100px 100px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffbf6a;
+  box-shadow: 0px 5px 0px 0px #faa93d;
+  box-shadow: 0px 2px 0px 0px #ffc06c;
+}
+
+.total-points-text {
+  font-family: Cherry Bomb One;
+  font-size: 24px;
+  font-weight: 400;
+  height: 30px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+.service-warp {
+  width: 151px;
+  height: 35px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.service-text {
+  font-family: Cherry Bomb One;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: right;
+
+  background: linear-gradient(
+    90.86deg,
+    #ffd79c -16.48%,
+    #ffa233 38.72%,
+    #ffc2a2 105.33%
+  );
+
+  background: -webkit-linear-gradient(
+    90.86deg,
+    #ffd79c -16.48%,
+    #ffa233 38.72%,
+    #ffc2a2 105.33%
+  );
+  -webkit-background-clip: text; /* Chrome, Safari */
+  background-clip: text;
+  -webkit-text-fill-color: transparent; /* Chrome, Safari */
+  color: transparent; /* 在不支持 -webkit-text-fill-color 的浏览器中，字体颜色设置为透明 */
+  display: inline-block;
+
+  text-shadow: -1px -1px 0 rgba(255, 251, 240, 1),
+    1px -1px 0 rgba(255, 251, 240, 1), -1px 1px 0 rgba(255, 251, 240, 1),
+    1px 1px 0 rgba(255, 251, 240, 1), 0px -1px 0 rgba(255, 251, 240, 1),
+    0px 1px 0 rgba(255, 251, 240, 1) -1px 0px 0 rgba(255, 251, 240, 1),
+    1px 0px 0 rgba(255, 251, 240, 1);
+}
+
+.date-warp {
+  .date-tabs,
+  .date-tab {
+    min-height: 30px;
+    padding: 0;
+  }
+
+  .date-tabs .MuiTabs-indicator {
+    background-color: transparent;
+  }
+  .date-tab.Mui-selected {
+    .tab-border-bottom:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 35px;
+      height: 2px;
+      width: 20px;
+      background-color: #ffbf6a;
+    }
+  }
+  .tab-text {
+    font-family: Inter !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    line-height: 30px !important;
+    text-align: center !important;
+    color: #ddc6ab !important;
+  }
+
+  .Mui-selected .tab-text {
+    color: #ffbf6a !important;
+  }
+  .week-text {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #cba87f;
+  }
+
+  .check-in-text {
+    width: 42px;
+    height: 29px;
+    font-family: Cherry Bomb One;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+    color: #fffbf0;
+    transform: rotate(10deg);
+  }
+
+  .week-warp {
+    display: grid;
+    grid-gap: 10px 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    .day-text {
+      font-family: Inter;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 26px;
+      text-align: center;
+      color: #ddc6ab;
+    }
+    .date-box {
+      width: 40px;
+      height: 40px;
+      padding: 2px 11px 2px 11px;
+      border-radius: 8px;
+      gap: 10px;
+      background: #f8f2e2;
+      .date-text {
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 15px;
+        height: 15px;
+        text-align: center;
+        color: #cba87f;
+        margin-bottom: 2px;
+      }
+      .date-point {
+        margin-left: 2px;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 600;
+        height: 12px;
+        line-height: 12px;
+        text-align: center;
+        color: #cba87f;
+      }
+    }
+    .signed-in {
+      background: linear-gradient(143.7deg, #ff9d56 21.17%, #ffc59b 81.24%);
+      box-shadow: 0px 2px 0px 0px #ede3c9;
+      .date-text {
+        color: #ffffff;
+      }
+      .date-point {
+        color: #ffffff;
+      }
+    }
+    .wating-sign-in {
+      background: transparent;
+      border: 2px solid #ffbf6a;
+      box-shadow: 0px 2px 0px 0px #ede3c9;
+    }
+  }
+  .month-text {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    height: 18px;
+    line-height: 18px;
+    color: #cba87f;
+  }
+  .line {
+    border-bottom: 1px solid #ffbf6a4d; /* 横线的宽度、样式和颜色 */
+    height: 0; /* 使div看起来像一条线 */
+  }
+}
+
+.task-warp {
+  .task-title {
+    font-family: Cherry Bomb One;
+    font-size: 24px;
+    font-weight: 400;
+    height: 36px;
+    line-height: 36px;
+    color: #ffbf6a;
+  }
+  .task-item {
+    padding: 16px;
+    margin-bottom: 16px;
+    gap: 24px;
+    border-radius: 20px;
+    background-blend-mode: overlay;
+    background: linear-gradient(
+      90.23deg,
+      rgba(17, 16, 24, 0) 0.28%,
+      rgba(17, 16, 24, 0.51) 129.42%
+    );
+    background: #fffbf0;
+    box-shadow: 0px 5px 0px 0px #faa93d;
+    /* box-shadow: 0px 2px 0px 0px #ffc06c;
+      box-shadow: 0px 0px 2px 0px #ef8521; */
+  }
+  .task-text-title {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    height: 24px;
+    color: #ffbf6a;
+    margin-bottom: 8px;
+  }
+
+  .task-text-point {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    height: 20px;
+    line-height: 20px;
+    color: #cba87f;
+  }
+
+  .task-item-content {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  .task-go {
+    width: 60px;
+    height: 44px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    background: linear-gradient(143.7deg, #ff9d56 21.17%, #ffc59b 81.24%);
+    border: 1px solid;
+    border-image-source: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.86615) 24.29%,
+      rgba(0, 0, 0, 0.6) 76.35%
+    );
+
+    .task-go-text {
+      font-family: Cherry Bomb One;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+}
+
+.sign-in-dialog-box {
+  .MuiPaper-root {
+    border-radius: 21px;
+    border-style: solid;
+    border-color: #ffffff;
+    background: #fffeff;
+    box-shadow: 0px 4px 0px 0px #ffe98c;
+  }
+  .dialog-header {
+    background: linear-gradient(143.7deg, #ff9d56 21.17%, #ffc59b 81.24%);
+    font-family: Cherry Bomb One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    height: 23px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    text-align: center;
+    border-radius: 23px;
+  }
+  .dialog-content {
+    font-family: Cherry Bomb One;
+    font-size: 14px;
+    font-weight: 400;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffbf6a;
+  }
+  .dialog-point {
+    font-family: Cherry Bomb One;
+    font-size: 32px;
+    font-weight: 400;
+    height: 48px;
+    line-height: 48px;
+    background: radial-gradient(
+      82.83% 280.98% at 96.89% 70.83%,
+      #f69ea3 0%,
+      #e970c4 100%
+    );
+    /* background: linear-gradient(
+        180deg,
+        rgba(254, 200, 241, 0.9) -22.92%,
+        rgba(237, 146, 215, 0) 26.73%
+      ); */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.my-invitation-card {
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border-radius: 16px !important;
+  background: #fffbf0;
+  border: 1px solid #ffc06c;
+  box-shadow: 0px 5px 0px 0px #faa93d !important;
+  /* box-shadow: 0px 2px 0px 0px #FFC06C;
+  box-shadow: 0px 0px 2px 0px #EF8521; */
+
+  .invitation-text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    height: 24px;
+    line-height: 24px;
+    color: #cba87f;
+  }
+  .invitation-point-text {
+    font-family: Cherry Bomb One;
+    font-size: 32px;
+    font-weight: 400;
+    height: 48px;
+    line-height: 48px;
+    color: #ffbf6a;
+  }
+}
+
+.invitation-warp {
+  display: grid;
+  grid-column-gap: 14px;
+  grid-row-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+.invitation-card {
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border-radius: 16px !important;
+  background: #fffbf0;
+  border: 1px solid #ffc06c;
+  box-shadow: 0px 5px 0px 0px #faa93d !important;
+  /* box-shadow: 0px 2px 0px 0px #FFC06C;
+    box-shadow: 0px 0px 2px 0px #EF8521; */
+  .invitation-total-text {
+    font-family: Cherry Bomb One;
+    font-size: 18px;
+    font-weight: 400;
+    height: 26px;
+    line-height: 26px;
+    color: #ffbf6a;
+  }
+  .invitation-title-text {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    height: 24px;
+    line-height: 24px;
+
+    color: #cba87f;
+  }
+  .invitation-desc-text {
+    font-family: Inter;
+    font-size: 12px;
+    .income-text {
+      font-weight: 600;
+      height: 24px;
+      line-height: 24px;
+      color: #ffbf6a;
+    }
+    .desc-text {
+      font-weight: 400;
+      height: 20px;
+      line-height: 20px;
+      color: #cba87f;
+    }
+  }
+}
+
+.invitation-btn {
+  padding: 16px 10px 16px 10px;
+  gap: 10px;
+  height: 56px;
+  border-radius: 10px !important;
+  background: linear-gradient(143.7deg, #ff9d56 21.17%, #ffc59b 81.24%);
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.86615) 24.29%,
+    rgba(0, 0, 0, 0.6) 76.35%
+  );
+  /* box-shadow: 0px 14px 20px 0px #2a3353cc; */
+  margin-bottom: 20px !important;
+
+  font-family: Cherry Bomb One !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff !important;
+}
+
+.snackbar-warp {
+  top: 40% !important;
+}
+.snackbar-box {
+  border-radius: 10px;
+  background: #00000080;
+  box-shadow: 0px 4px 4px 0px #00000040;
+
+  .snackbar-text {
+    font-family: Cherry Bomb One;
+    font-size: 16px;
+    font-weight: 400;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffbf6a;
+  }
+}

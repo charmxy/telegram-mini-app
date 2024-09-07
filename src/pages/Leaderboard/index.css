@@ -1,0 +1,198 @@
+.header-text {
+  font-family: Cherry Bomb One;
+  font-size: 24px;
+  font-weight: 400;
+  height: 36px;
+  line-height: 36px;
+  color: #ffbf6a;
+  padding-left: 24px;
+}
+
+.my-rank-card {
+  background: #fffbf0;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border-radius: 16px !important;
+  box-shadow: 0px 5px 0px 0px #faa93d !important;
+  border: 1px solid #ffc06c;
+  /* box-shadow: 0px 2px 0px 0px #ffc06c;
+    box-shadow: 0px 0px 2px 0px #ef8521; */
+
+  .my-ponit-text {
+    font-family: Cherry Bomb One;
+    font-size: 32px;
+    font-weight: 400;
+    height: 36px;
+    line-height: 36px;
+    background: radial-gradient(
+      82.83% 280.98% at 96.89% 70.83%,
+      #f69ea3 0%,
+      #e970c4 100%
+    );
+
+    /* background: linear-gradient(
+        180deg,
+        rgba(254, 200, 241, 0.9) -22.92%,
+        rgba(237, 146, 215, 0) 26.73%
+      ); */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .my-rank-text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    height: 24px;
+    line-height: 24px;
+    color: #cba87f;
+    flex: 1;
+  }
+  .rank-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rank-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+.rank-warp {
+  .rank-tabs,
+  .rank-tab {
+    min-height: 32px;
+    padding: 0;
+  }
+  .rank-tabs .MuiTabs-indicator {
+    background-color: transparent;
+  }
+  .rank-tab.Mui-selected {
+    .tab-border-bottom:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 35px;
+      height: 2px;
+      width: 20px;
+      background-color: #ffbf6a;
+    }
+  }
+
+  .tab-text {
+    font-family: Inter !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    line-height: 32px !important;
+    text-align: center !important;
+    color: #ddc6ab !important;
+  }
+
+  .Mui-selected .tab-text {
+    color: #ffbf6a !important;
+  }
+}
+.top-three-warp {
+  display: grid;
+  align-items: flex-end;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+.top-one-box {
+  width: 110px;
+  height: 180px;
+  padding: 24px 16px 24px 16px;
+  gap: 10px;
+  border-radius: 16px;
+  background: linear-gradient(326.76deg, #fb775a 19.79%, #ffc59b 87.48%);
+  box-shadow: 0px 5px 0px 1px #fc785b4d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-two-box {
+  width: 110px;
+  height: 144px;
+  padding: 24px 16px 24px 16px;
+  gap: 10px;
+  border-radius: 16px;
+  background: linear-gradient(317.49deg, #9eb1bf 16.52%, #d9f1ff 88.73%);
+  box-shadow: 0px 5px 0px 1px #9fb2c04d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-three-box {
+  width: 110px;
+  height: 132px;
+  padding: 24px 16px 24px 16px;
+  gap: 10px;
+  border-radius: 16px;
+  background: linear-gradient(326.76deg, #e19f50 19.79%, #ffc59c 87.48%);
+  box-shadow: 0px 5px 0px 1px #e5a45a4d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rank-tabpanel {
+  padding: 20px 0px !important;
+}
+.nickname-text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+.point-text {
+  font-family: Cherry Bomb One;
+  font-size: 20px;
+  font-weight: 400;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.rank-list-card {
+  padding: 16px;
+  border-radius: 20px !important;
+  background: #fffbf0;
+  border: 1px solid #ffc06c;
+  box-shadow: 0px 5px 0px 0px #faa93d !important;
+  /* box-shadow: 0px 2px 0px 0px #ffc06c;
+    box-shadow: 0px 0px 2px 0px #ef8521; */
+  .rank-text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    height: 20px;
+    line-height: 20px;
+    color: #e08920;
+  }
+
+  .ranking-text {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ff8a00;
+  }
+  .rank-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 48px;
+  }
+}

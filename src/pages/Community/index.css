@@ -1,0 +1,119 @@
+.my-invitation-card {
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border-radius: 16px !important;
+  background: #fffbf0;
+  border: 1px solid #ffc06c;
+  box-shadow: 0px 5px 0px 0px #faa93d !important;
+  /* box-shadow: 0px 2px 0px 0px #FFC06C;
+  box-shadow: 0px 0px 2px 0px #EF8521; */
+
+  .invitation-text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    height: 24px;
+    line-height: 24px;
+    color: #cba87f;
+  }
+  .invitation-point-text {
+    font-family: Cherry Bomb One;
+    font-size: 32px;
+    font-weight: 400;
+    height: 48px;
+    line-height: 48px;
+    color: #ffbf6a;
+  }
+}
+
+.invitation-warp {
+  display: grid;
+  grid-column-gap: 14px;
+  grid-row-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+.invitation-card {
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border-radius: 16px !important;
+  background: #fffbf0;
+  border: 1px solid #ffc06c;
+  box-shadow: 0px 5px 0px 0px #faa93d !important;
+  /* box-shadow: 0px 2px 0px 0px #FFC06C;
+    box-shadow: 0px 0px 2px 0px #EF8521; */
+  .invitation-total-text {
+    font-family: Cherry Bomb One;
+    font-size: 18px;
+    font-weight: 400;
+    height: 26px;
+    line-height: 26px;
+    color: #ffbf6a;
+  }
+  .invitation-title-text {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    height: 24px;
+    line-height: 24px;
+
+    color: #cba87f;
+  }
+  .invitation-desc-text {
+    font-family: Inter;
+    font-size: 12px;
+    .income-text {
+      font-weight: 600;
+      height: 24px;
+      line-height: 24px;
+      color: #ffbf6a;
+    }
+    .desc-text {
+      font-weight: 400;
+      height: 20px;
+      line-height: 20px;
+      color: #cba87f;
+    }
+  }
+}
+
+.invitation-btn {
+  padding: 16px 10px 16px 10px;
+  gap: 10px;
+  height: 56px;
+  border-radius: 10px !important;
+  background: linear-gradient(143.7deg, #ff9d56 21.17%, #ffc59b 81.24%);
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.86615) 24.29%,
+    rgba(0, 0, 0, 0.6) 76.35%
+  );
+  /* box-shadow: 0px 14px 20px 0px #2a3353cc; */
+  margin-bottom: 20px !important;
+
+  font-family: Cherry Bomb One !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff !important;
+}
+
+.snackbar-warp {
+  top: 40% !important;
+}
+.snackbar-box {
+  border-radius: 10px;
+  background: #00000080;
+  box-shadow: 0px 4px 4px 0px #00000040;
+
+  .snackbar-text {
+    font-family: Cherry Bomb One;
+    font-size: 16px;
+    font-weight: 400;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffbf6a;
+  }
+}
